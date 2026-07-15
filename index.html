@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Vivian Chiciudean: Ph.D. researcher at the Technical University of Cluj-Napoca, interested in aerial perception, semantic segmentation, and datasets for autonomous UAV systems.">
+  <title>Vivian Chiciudean</title>
+
+  <meta property="og:title" content="Vivian Chiciudean">
+  <meta property="og:description" content="Ph.D. researcher at the Technical University of Cluj-Napoca, interested in aerial perception and computer vision for autonomous UAV systems.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://vivichiciudean.github.io/">
+  <meta property="og:image" content="https://vivichiciudean.github.io/assets/profile.jpg">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --ink:#1a1a1a; --muted:#666; --link:#2a6bbf; --rule:#e8e8e8;
+    }
+
+    /* ---------- base ---------- */
+    *{ box-sizing:border-box; }
+    body{
+      margin:0; background:#fff; color:var(--ink);
+      font:400 16px/1.6 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{ color:var(--link); text-decoration:none; }
+    a:hover{ text-decoration:underline; }
+    p{ margin:0 0 .85rem; }
+    .wrap{ max-width:820px; margin:0 auto; padding:0 22px; }
+
+    section{ padding:34px 0 0; }
+    h2{
+      margin:0 0 1rem; padding-bottom:.4rem;
+      font-size:1.35rem; font-weight:900; border-bottom:1px solid var(--rule);
+    }
+
+    /* ---------- header ---------- */
+    header{ padding:52px 0 8px; }
+    .head{ display:flex; gap:34px; align-items:center; }
+    .photo{
+      width:172px; height:172px; flex:none;
+      border-radius:50%; object-fit:cover; background:#f2f2f2;
+    }
+    h1{ margin:0 0 .55rem; font-size:2.3rem; font-weight:900; letter-spacing:-.02em; line-height:1.1; }
+    .links{ margin:0 0 .9rem; font-size:.78rem; font-weight:700; letter-spacing:.09em; color:#bbb; }
+    .links a{ margin:0 .1rem; white-space:nowrap; }
+    .links .e{ font-size:1.15em; letter-spacing:0; margin-right:.05em; }
+    .links svg{ width:1.1em; height:1.1em; vertical-align:-.2em; margin-right:.1em; }
+    .tagline{ margin:0; font-size:1.06rem; }
+    .bio{ margin-top:1.4rem; }
+
+    /* ---------- news ---------- */
+    .news{ width:100%; border-collapse:collapse; font-size:.94rem; }
+    .news td{ padding:.42rem 0; vertical-align:top; }
+    .news .date{ width:82px; white-space:nowrap; color:var(--muted); font-weight:700; }
+    #more-news{ display:none; }
+    .toggle{
+      margin-top:.5rem; padding:0; border:none; background:none; cursor:pointer;
+      font:700 .8rem/1 inherit; letter-spacing:.07em; color:var(--link);
+    }
+    .toggle:hover{ text-decoration:underline; }
+
+    /* ---------- research ---------- */
+    .paper{ display:flex; gap:22px; padding:18px 0; align-items:flex-start; }
+    .paper + .paper{ border-top:1px solid var(--rule); }
+    /* fixed box for every card; the image is scaled to fit inside it (never cropped) and centred */
+    .thumb{
+      display:block; width:240px; height:150px; flex:none;
+      padding:6px; background:#fff;
+      border:1px solid var(--rule); border-radius:4px;
+    }
+    .thumb img{ display:block; width:100%; height:100%; object-fit:contain; }
+    .meta{ flex:1; min-width:0; }
+    .ttl{ margin-bottom:.2rem; font-size:1.03rem; font-weight:700; line-height:1.35; }
+    .ttl a{ color:var(--ink); }
+    .ttl a:hover{ color:var(--link); }
+    .auth{ margin-bottom:.15rem; font-size:.9rem; color:#444; }
+    .auth .me{ font-weight:700; color:var(--ink); }
+    .venue{ margin-bottom:.4rem; font-size:.9rem; color:var(--muted); }
+    .venue em{ font-style:normal; font-weight:700; color:#b8860b; }
+    .acts{ font-size:.86rem; }
+    .acts a{ margin-right:.15rem; }
+
+    footer{ padding-bottom:60px; }
+
+    @media (max-width:680px){
+      h1{ font-size:1.9rem; }
+      .head{ flex-direction:column; text-align:center; gap:20px; }
+      .paper{ flex-direction:column; gap:14px; }
+      .thumb{ width:100%; height:200px; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ HEADER ============ -->
+  <header>
+    <div class="head">
+      <img class="photo" src="./assets/profile.jpeg" alt="Vivian Chiciudean">
+      <div>
+        <h1>Vivian Chiciudean</h1>
+        <p class="links">
+          <a href="https://users.utcluj.ro/~vivianc/"><span class="e">🌐</span> WEBSITE</a> |
+          <a href="https://scholar.google.com/citations?user=qt7hsvIAAAAJ&hl=en"><span class="e">🎓</span> SCHOLAR</a> |
+          <a href="https://github.com/vivichiciudean"><span class="e">💻</span> GITHUB</a> |
+          <a href="https://orcid.org/0009-0002-0798-5247"><svg viewBox="0 0 256 256" aria-hidden="true" focusable="false"><path fill="#A6CE39" d="M256 128c0 70.7-57.3 128-128 128S0 198.7 0 128 57.3 0 128 0s128 57.3 128 128z"/><path fill="#fff" d="M86.3 186.2H70.9V79.1h15.4v107.1z"/><path fill="#fff" d="M108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7C191.7 111.2 178 93 148 93h-23.7v79.4z"/><path fill="#fff" d="M88.7 56.8c0 5.5-4.5 10.1-10.1 10.1s-10.1-4.6-10.1-10.1c0-5.6 4.5-10.1 10.1-10.1s10.1 4.6 10.1 10.1z"/></svg> ORCID</a> |
+          <a href="https://www.linkedin.com/in/vivian-chiciudean/"><span class="e">💼</span> LINKEDIN</a>
+        </p>
+        <p class="tagline">Ph.D. student at the Technical University of Cluj-Napoca, working on <b>aerial perception</b>.</p>
+      </div>
+    </div>
+
+    <p class="bio">
+      I am a Ph.D. student and AI researcher at the <a href="https://ac.utcluj.ro/home.html">Technical University of Cluj-Napoca</a>.
+      My research is on scene perception and understanding for UAVs, in particular
+      <b>high-quality aerial datasets</b> and <b>semantic segmentation</b>.
+    </p>
+  </header>
+
+  <!-- ============ NEWS ============ -->
+  <section>
+    <h2>News</h2>
+    <table class="news">
+      <tbody>
+        <tr>
+          <td class="date">07/2026:</td>
+          <td><a href="#uavidpp">UAVid++</a> was accepted to <b>IEEE TGRS</b>! Dataset, code, and
+            <a href="https://vivichiciudean.github.io/uavidplusplus/">project page</a> are online.</td>
+        </tr>
+        <tr>
+          <td class="date">10/2025:</td>
+          <td>Two works I co-supervised were presented at <b>IEEE ICCP 2025</b>:
+            <a href="https://ieeexplore.ieee.org/abstract/document/11427152">semantic segmentation</a> and
+            <a href="https://ieeexplore.ieee.org/abstract/document/11427117">open-world video panoptic segmentation</a>
+            with foundation models.</td>
+        </tr>
+        <tr>
+          <td class="date">10/2024:</td>
+          <td>I presented <a href="https://ieeexplore.ieee.org/abstract/document/10792993">Localization and
+            Change Detection</a> at <b>IEEE ICCP 2024</b>.</td>
+        </tr>
+      </tbody>
+      <tbody id="more-news">
+        <tr>
+          <td class="date">10/2024:</td>
+          <td>I started my Ph.D. in Environment Perception at TUCN.</td>
+        </tr>
+        <tr>
+          <td class="date">01/2024:</td>
+          <td>Our work on <a href="https://ieeexplore.ieee.org/abstract/document/10461075">data augmentation
+            for UAV perception</a> appeared in <b>IEEE TIV</b>.</td>
+        </tr>
+        <tr>
+          <td class="date">10/2023:</td>
+          <td>I presented <a href="https://ieeexplore.ieee.org/abstract/document/10398697">Static Mesh
+            Enrichment</a> at <b>IEEE ICCP 2023</b>.</td>
+        </tr>
+        <tr>
+          <td class="date">09/2022:</td>
+          <td>My first paper, <a href="https://ieeexplore.ieee.org/abstract/document/10053965">Pathfinding
+            in a 3D Grid</a>, at <b>IEEE ICCP 2022</b>.</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="toggle" id="news-toggle" onclick="toggleNews()">&darr; SHOW MORE &darr;</button>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section>
+    <h2>Research</h2>
+
+    <div class="paper" id="uavidpp">
+      <a class="thumb" href="https://vivichiciudean.github.io/uavidplusplus/">
+        <img src="./assets/UAVid++.png" alt="UAVid++"></a>
+      <div class="meta">
+        <div class="ttl"><a href="https://vivichiciudean.github.io/uavidplusplus/">UAVid++: Higher-Quality Labels and Expanded Semantic Taxonomy for Aerial Semantic Segmentation</a></div>
+        <div class="auth"><span class="me">Vivian Chiciudean</span>, Sergiu Nedevschi, Florin Oniga</div>
+        <div class="venue">IEEE Transactions on Geoscience and Remote Sensing, 2026 &mdash; <em>new</em></div>
+        <div class="acts">
+          <a href="https://users.utcluj.ro/~vivianc/#publications">Paper</a> |
+          <a href="https://vivichiciudean.github.io/uavidplusplus/">Website</a> |
+          <a href="https://github.com/vivichiciudean/uavidplusplus-code">Code</a> |
+          <a href="https://huggingface.co/datasets/vivianchiciudean/uavidplusplus">Dataset</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <span class="thumb"><img src="./assets/object_det.png" alt=""></span>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/11427152">Semantic Segmentation from Object Detection using Foundation Models</a></div>
+        <div class="auth">Alex-Mihai Schiau, <span class="me">Vivian Chiciudean</span>, Florin Oniga, Sergiu Nedevschi</div>
+        <div class="venue">IEEE ICCP 2025 &mdash; co-supervised student work </div>
+        <div class="acts"><a href="https://ieeexplore.ieee.org/abstract/document/11427152">Paper</a></div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <span class="thumb"><img src="./assets/owvps.png" alt=""></span>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/11427117">Open-World Video Panoptic Segmentation for Aerial Perception using Foundation Models</a></div>
+        <div class="auth">Natalia-Georgiana Boncea, <span class="me">Vivian Chiciudean</span>, Florin Oniga, Sergiu Nedevschi</div>
+        <div class="venue">IEEE ICCP 2025 &mdash; co-supervised student work</div>
+        <div class="acts"><a href="https://ieeexplore.ieee.org/abstract/document/11427117">Paper</a></div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <span class="thumb"><img src="./assets/change.png" alt=""></span>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/10792993">Localization and Change Detection Through Aerial Environment Perception</a></div>
+        <div class="auth"><span class="me">Vivian Chiciudean</span>, Horatiu Florea, Florin Oniga, Sergiu Nedevschi</div>
+        <div class="venue">IEEE ICCP 2024</div>
+        <div class="acts"><a href="https://ieeexplore.ieee.org/abstract/document/10792993">Paper</a></div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <a class="thumb" href="https://github.com/vivichiciudean/aerial-image-augmentation">
+        <img src="./assets/mesh.png" alt="Aerial image augmentation"></a>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/10461075">Data Augmentation for Environment Perception with Unmanned Aerial Vehicles</a></div>
+        <div class="auth"><span class="me">Vivian Chiciudean</span>, Horatiu Florea, Bianca-Cerasela-Zelia Blaga, Radu Beche, Florin Oniga, Sergiu Nedevschi</div>
+        <div class="venue">IEEE Transactions on Intelligent Vehicles, 2024</div>
+        <div class="acts">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10461075">Paper</a> |
+          <a href="https://github.com/vivichiciudean/aerial-image-augmentation">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <span class="thumb"><img src="./assets/dyn_mesh.png" alt=""></span>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/10398697">Static Mesh Enrichment with Dynamic Entities for Training Sets Generation</a></div>
+        <div class="auth"><span class="me">Vivian Chiciudean</span>, Radu Beche, Bianca-Cerasela-Zelia Blaga, Horatiu Florea, Florin Oniga, Sergiu Nedevschi</div>
+        <div class="venue">IEEE ICCP 2023</div>
+        <div class="acts"><a href="https://ieeexplore.ieee.org/abstract/document/10398697">Paper</a></div>
+      </div>
+    </div>
+
+    <div class="paper">
+      <span class="thumb"><img src="./assets/path.png" alt=""></span>
+      <div class="meta">
+        <div class="ttl"><a href="https://ieeexplore.ieee.org/abstract/document/10053965">Pathfinding in a 3D Grid for UAV Navigation</a></div>
+        <div class="auth"><span class="me">Vivian Chiciudean</span>, Florin Oniga</div>
+        <div class="venue">IEEE ICCP 2022</div>
+        <div class="acts"><a href="https://ieeexplore.ieee.org/abstract/document/10053965">Paper</a></div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer></footer>
+
+</div>
+
+<script>
+  // open every external link in a new tab (internal #anchors and mailto: stay in place)
+  document.querySelectorAll('a[href^="http"]').forEach(function(a){
+    a.target = '_blank';
+    a.rel = 'noopener';
+  });
+
+  function toggleNews(){
+    var more = document.getElementById('more-news');
+    var btn  = document.getElementById('news-toggle');
+    var open = more.style.display === 'table-row-group';
+    more.style.display = open ? 'none' : 'table-row-group';
+    btn.innerHTML = open ? '&darr; SHOW MORE &darr;' : '&uarr; HIDE &uarr;';
+  }
+</script>
+</body>
+</html>
